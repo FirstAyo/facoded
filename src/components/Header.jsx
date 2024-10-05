@@ -11,7 +11,7 @@ function Header() {
 
                     <nav
                         className="border-[#FFDBD9] border-2 lg:border-none nav-links duration-500 absolute top-[-100%] w-[80.1%] lg:w-auto min-h-[35vh] mx-auto flex items-center px-5 lg:min-h-fit lg:static">
-                        <ul className="flex flex-col gap-6 lg:flex-row justify-between lg:gap-10 my-5 lg:my-0">
+                        <ul className="flex flex-col gap-6 lg:flex-row justify-between lg:gap-10 my-5 lg:my-0 text-lg font-semibold">
                             <a href="index.html">Home</a>
                             <a href="#">My Projects</a>
                             <a href="about.html">About</a>
