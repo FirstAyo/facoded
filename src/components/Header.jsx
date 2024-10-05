@@ -4,7 +4,7 @@ function Header() {
     return (
 
         <>
-            <section className="shadow-md">
+            <section className="shadow-md w-[100%]">
                 <header
                     className="flex justify-between items-center w-[90%] mx-auto py-5 text-black lg:sticky lg:top-3">
                     <h1 className="text-red-900 font-bold text-2xl">FaCoded</h1>

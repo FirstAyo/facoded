@@ -5,7 +5,7 @@ function Hero() {
     return (
         <>
 
-            <div className="pt-5 pb-20">
+            <div className="pt-5 pb-20 w-[100%]">
                 <h2 className="text-xl lg:text-4xl py-5 font-semibold tracking-widest w-[50%] mx-auto text-center" id="hero-caption">I build innovative <br /> solutions with each line <br /> {heroMessage}
                 </h2>
             </div>
