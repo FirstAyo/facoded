@@ -1,5 +1,5 @@
-
-function HomePageProjects() {
+import comfortImage from '../assets/image/furnitureStore.PNG';
+function Projects() {
     return (
         <>
 
@@ -14,9 +14,10 @@ function HomePageProjects() {
                     <div className="flex flex-col gap-5">
                         {/* <!-- div for the first card section of the page --> */}
                         <div className="grid md:grid-cols-3 gap-2 w-[90%] mx-auto">
+                            
                             {/* <!-- card 1 --> */}
                             <article className="border-2 border-[#FFDBD9] py-5 px-5 bg-[#1c1c1c] rounded-xl flex-1">
-                                <img src="../img/furnitureStore.png" alt="" className="w-[680px] h-[185px]" />
+                                <img src={comfortImage} alt="" className="w-[680px] h-[185px]" />
                                 <h2 className="font-bold my-3">Furniture store Landing page</h2>
                                 <p className="text-sm text-gray-300">Responsive HTML/CSS layout for online furniture store.
                                     HTML5,
@@ -67,6 +68,7 @@ function HomePageProjects() {
 
                         {/* <!-- div for the second card section of the page --> */}
                         <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-2 w-[90%] mx-auto">
+                           
                             {/* <!-- card 4 --> */}
                             <article className="border-2 border-[#FFDBD9] py-5 px-5 bg-[#1c1c1c] rounded-xl flex-1">
                                 <img src="../img/bundleMobile.jpeg" alt="" className="w-[480px] h-[185px]" />
@@ -116,6 +118,7 @@ function HomePageProjects() {
                                 </div>
                             </article>
                         </div>
+
                     </div>
                 </main>
 
@@ -214,4 +217,4 @@ function HomePageProjects() {
     )
 }
 
-export default HomePageProjects
+export default Projects

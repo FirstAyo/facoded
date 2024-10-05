@@ -1,6 +1,6 @@
 import Header from "../components/Header"
 import Hero from "../components/Hero"
-import HomePageProjects from "../components/HomePageProjects"
+import HomePageProjects from "../components/Projects"
 import SearchInput from "../components/SearchInput"
 
 function HomePage() {
