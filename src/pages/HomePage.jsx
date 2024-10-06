@@ -1,7 +1,8 @@
+import FormInput from "../components/FormInput"
 import Header from "../components/Header"
 import Hero from "../components/Hero"
 import MeetMe from "../components/MeetMe"
-import HomePageProjects from "../components/Projects"
+import Projects from "../components/Projects"
 import SearchInput from "../components/SearchInput"
 import SkillsProficiency from "../components/SkillsProficiency"
 
@@ -12,9 +13,10 @@ function HomePage() {
                 <Header />
                 <SearchInput />
                 <Hero />
-                <HomePageProjects />
+                <Projects />
                 <MeetMe />
                 <SkillsProficiency />
+                <FormInput />
             </section>
         </>
     )

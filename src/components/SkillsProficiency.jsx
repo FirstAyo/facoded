@@ -7,7 +7,7 @@ function SkillsProficiency() {
         <>
 
             {/* <!-- skills proficiency section --> */}
-            <div className="w-[80%] mx-auto py-14">
+            <div className="w-[95%] mx-auto pb-14">
                 <h1 className="text-center font-mono text-2xl pb-10">Skills Proficiency</h1>
 
                 {/* <!-- skills proficiency percentage section --> */}
