@@ -12,7 +12,7 @@ function MeetMe() {
                 <h1 className="text-center font-mono text-2xl">Meet Me</h1>
                 <p className="my-5 text-gray-400 text-center"> { aboutMeMEssage } </p>
                 <div
-                    className="w-52 h-60 rounded-md border-8 border-t-white border-l-white border-b-red-950 border-r-red-950 mx-auto">
+                    className="w-52 h-60 rounded-md border-8 border-t-gray-500 border-l-gray-500 border-b-red-800 border-r-red-800 mx-auto">
                     <img src={ profileImage } alt="" className="w-full h-full rounded-md" />
                 </div>
             </div>

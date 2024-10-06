@@ -1,3 +1,4 @@
+import Footer from "../components/Footer"
 import FormInput from "../components/FormInput"
 import Header from "../components/Header"
 import Hero from "../components/Hero"
@@ -17,6 +18,7 @@ function HomePage() {
                 <MeetMe />
                 <SkillsProficiency />
                 <FormInput />
+                <Footer />
             </section>
         </>
     )
