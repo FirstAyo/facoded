@@ -1,4 +1,4 @@
-
+import logo from '../assets/image/main-logo-transparent.svg';
 
 function Header() {
     return (
@@ -7,7 +7,8 @@ function Header() {
             <section className="shadow-md w-[100%]">
                 <header
                     className="flex justify-between items-center w-[90%] mx-auto py-5 text-black lg:sticky lg:top-3">
-                    <h1 className="text-red-900 font-bold text-2xl">FaCoded</h1>
+                        <img src= { logo } alt="" className='w-24 h-12' />
+                    {/* <h1 className="text-red-900 font-bold text-2xl">FaCoded</h1> */}
 
                     <nav
                         className="border-[#FFDBD9] border-2 lg:border-none nav-links duration-500 absolute top-[-100%] w-[80.1%] lg:w-auto min-h-[35vh] mx-auto flex items-center px-5 lg:min-h-fit lg:static">
