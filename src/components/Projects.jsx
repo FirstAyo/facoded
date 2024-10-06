@@ -6,10 +6,12 @@ function Projects() {
     return (
         <>
 
-                <article className="py-5 px-5 rounded-xl flex flex-wrap gap-10">
+                <article className="py-5 px-5 rounded-xl flex flex-wrap gap-10 mx-auto">
 
                     {postSummaries.map((postSummary) => (
-                        <div key={postSummary.id} className='grow basis-[250px] flex-1 flex flex-col border-2 border-red-900 rounded-md px-5 py-5'>
+
+                        <div key={postSummary.id} className='grow basis-[320px] flex-1 flex flex-col border-2 border-red-900 rounded-md px-5 py-5'>
+
                             <img src={comfortImage} alt="" className="w-full h-[185px] flex-1" />
                             <h2 className="font-bold my-3 flex-1">{postSummary.title}</h2>
                             <p className="text-sm text-gray-300 flex-1">{postSummary.description}</p>

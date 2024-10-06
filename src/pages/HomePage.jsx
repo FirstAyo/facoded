@@ -1,5 +1,6 @@
 import Header from "../components/Header"
 import Hero from "../components/Hero"
+import MeetMe from "../components/MeetMe"
 import HomePageProjects from "../components/Projects"
 import SearchInput from "../components/SearchInput"
 
@@ -11,6 +12,7 @@ function HomePage() {
                 <SearchInput />
                 <Hero />
                 <HomePageProjects />
+                <MeetMe />
             </section>
         </>
     )
