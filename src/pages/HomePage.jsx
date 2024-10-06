@@ -3,6 +3,7 @@ import Hero from "../components/Hero"
 import MeetMe from "../components/MeetMe"
 import HomePageProjects from "../components/Projects"
 import SearchInput from "../components/SearchInput"
+import SkillsProficiency from "../components/SkillsProficiency"
 
 function HomePage() {
     return (
@@ -13,6 +14,7 @@ function HomePage() {
                 <Hero />
                 <HomePageProjects />
                 <MeetMe />
+                <SkillsProficiency />
             </section>
         </>
     )
