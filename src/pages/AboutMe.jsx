@@ -1,10 +1,22 @@
+import MyBio from "../components/aboutme/MyBio"
+import Footer from "../components/Footer"
+import FormInput from "../components/FormInput"
+import Header from "../components/Header"
+import SearchInput from "../components/SearchInput"
+import SkillsProficiency from "../components/SkillsProficiency"
 
 function AboutMe() {
-  return (
-    <div>
-      <h1>About Me</h1>
-    </div>
-  )
+    return (
+
+        <>
+            <Header />
+            <SearchInput />
+            <MyBio />
+            <SkillsProficiency />
+            <FormInput />
+            <Footer />
+        </>
+    )
 }
 
 export default AboutMe

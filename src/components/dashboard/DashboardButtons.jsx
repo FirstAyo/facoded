@@ -6,7 +6,7 @@ function DashboardButtons({ text }) {
         <>
 
             <div>
-                <button className="bg-red-800 text-white px-5 h-9 rounded-sm">{ text }</button>
+                <button className="bg-red-800 text-white px-5 h-9 rounded-sm font-semibold">{ text }</button>
             </div>
 
         </>
@@ -14,8 +14,7 @@ function DashboardButtons({ text }) {
 }
 
 DashboardButtons.propTypes = {
-    text: PropTypes.string.isRequired,
-    onClick: PropTypes.func.isRequired,
+    text: PropTypes.string.isRequired
   };
 
 export default DashboardButtons
