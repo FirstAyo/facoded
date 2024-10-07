@@ -1,8 +1,9 @@
+import DashboardHeader from "../components/dashboard/DashboardHeader"
 
 function Dashboard() {
   return (
-    <div>
-      <h1>Dashboard</h1>
+    <div className="bg-gray-100 h-lvh">
+      <DashboardHeader />
     </div>
   )
 }
