@@ -34,7 +34,7 @@ function ContactCards() {
 
                 {dataItems.map((dataItem) => (
                     <div  key={ dataItem.id } className='flex-1 flex items-center gap-5 py-5 rounded-md px-5 bg-white shadow-2xl'>
-                        <div className='w-20 h-10 bg-white flex items-center justify-center rounded-md shadow-2xl'>
+                        <div className='w-20 h-10 bg-white flex items-center justify-center rounded-md shadow-2xl border-2 border-gray-500'>
                         <img src={ dataItem.icon } alt= { dataItem.title } className='w-8 h-8 p-1' />
                         </div>
                         <div className='flex flex-col gap-2'>
