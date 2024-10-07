@@ -5,7 +5,7 @@ function FormInput() {
 
             {/* <!-- form section starts here --> */}
             <div className="pt-14 w-[90%] mx-auto mb-10">
-                <form action="" className="w-[40%] text-black bg-white shadow-lg border-2 border-red-800 font-mono">
+                <form action="" className="w-[100%] text-black bg-white shadow-lg border-2 border-red-800 font-mono">
                     <h1 className="text-2xl py-5 w-[90%] mx-auto">Get in touch</h1>
                     <p className="text-sm text-gray-500 w-[90%] mx-auto">Ready to start your next project or
                         have any questions? Feel free to reach out to me using the form below.</p>
