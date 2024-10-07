@@ -1,3 +1,4 @@
+import AboutCarousel from "../components/aboutme/AboutCarousel"
 import MyBio from "../components/aboutme/MyBio"
 import Footer from "../components/Footer"
 import FormInput from "../components/FormInput"
@@ -12,6 +13,7 @@ function AboutMe() {
             <Header />
             <SearchInput />
             <MyBio />
+            <AboutCarousel />
             <SkillsProficiency />
             <FormInput />
             <Footer />

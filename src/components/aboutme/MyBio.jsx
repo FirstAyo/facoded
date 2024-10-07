@@ -6,7 +6,7 @@ function MyBio() {
 
             {/* <!-- this is the about me section --> */}
             <div
-                className="w-[90%] mt-11 pb-14 flex flex-col justify-center items-center py-3 text-gray-700 mx-auto font-mono">
+                className="w-[90%] mt-11 pb-10 flex flex-col justify-center items-center py-3 text-gray-700 mx-auto font-mono">
                 <div className="mt-7 w-[100%] mx-auto">
                     <img src={ bioPhoto } alt=""
                         className="w-64 h-72 rounded-md border-8 border-t-gray-500 border-l-gray-500 border-b-red-800 border-r-red-800 mx-5 lg:float-right mb-1" />
