@@ -1,8 +1,13 @@
+import Header from "../components/Header"
+import Projects from "../components/Projects"
 
 function ContactMe() {
-  return (
-    <div>ContactMe</div>
-  )
+    return (
+        <>
+            <Header />
+            
+        </>
+    )
 }
 
 export default ContactMe
