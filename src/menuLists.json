@@ -1,0 +1,33 @@
+[
+
+    {
+        "id": "1",
+        "menu": "Home",
+        "path": "/"
+    },
+
+    {
+        "id": "2",
+        "menu": "My Projects",
+        "path": "/my-projects"
+    },
+
+    {
+        "id": "3",
+        "menu": "About",
+        "path": "/about-me"
+    },
+
+    {
+        "id": "4",
+        "menu": "Contact",
+        "path": "/contact-me"
+    },
+
+    {
+        "id": "5",
+        "menu": "Dashboard",
+        "path": "/dashboard"
+    }
+
+]
