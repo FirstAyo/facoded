@@ -10,7 +10,7 @@ import SkillsProficiency from "../components/SkillsProficiency"
 function HomePage() {
     return (
         <>
-            <section className="w-[90%] mx-auto">
+            <section className="w-[100%] mx-auto">
                 <Header />
                 <SearchInput />
                 <Hero />

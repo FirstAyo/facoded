@@ -7,7 +7,7 @@ function Footer() {
 
         <>
 
-            <footer className="border-t-2 border-red-800 font-mono">
+            <footer className="border-t-2 border-red-800 font-mono w-[90%] mx-auto">
 
                 <p className="text-lg font-semibold text-gray-600 text-center py-3 w-[90%] mx-auto">2024. All
                     Rights Reserved. DevAyo</p>
