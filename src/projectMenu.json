@@ -1,0 +1,33 @@
+[
+
+    {
+        "id": "1",
+        "menu": "Home",
+        "path": "/"
+    },
+
+    {
+        "id": "2",
+        "menu": "HTML & CSS",
+        "path": "/my-projects"
+    },
+
+    {
+        "id": "3",
+        "menu": "Tailwind CSS",
+        "path": "/about-me"
+    },
+
+    {
+        "id": "4",
+        "menu": "Javascript",
+        "path": "/contact-me"
+    },
+
+    {
+        "id": "5",
+        "menu": "React JS",
+        "path": "/dashboard"
+    }
+
+]
