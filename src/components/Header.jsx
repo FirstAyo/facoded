@@ -6,7 +6,7 @@ function Header() {
     return (
 
         <>
-            <section className="shadow-md w-[100%] bg-white">
+            <section className="shadow-md w-[100%] bg-white font-mono">
                 <header
                     className="flex justify-between items-center w-[90%] mx-auto py-5 text-black lg:sticky lg:top-3">
                         <img src= { logo } alt="" className='w-24 h-12' />
