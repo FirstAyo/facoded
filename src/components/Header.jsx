@@ -15,9 +15,9 @@ function Header() {
 
                     <nav
                         className="border-[#FFDBD9] border-2 lg:border-none nav-links duration-500 absolute top-[-100%] w-[80.1%] lg:w-auto min-h-[35vh] mx-auto flex items-center px-5 lg:min-h-fit lg:static">
-                        <ul className="flex flex-col gap-6 lg:flex-row justify-between lg:gap-10 my-5 lg:my-0 text-lg font-semibold">
+                        <ul className="flex flex-col lg:flex-row my-5 lg:my-0 text-lg font-semibold">
                             { menuLinks.map ((menuLink => (
-                                <Link to={ menuLink.path } key={ menuLink.id }> { menuLink.menu }</Link>
+                                <Link to={ menuLink.path } key={ menuLink.id }className='hover:bg-red-800 py-2 px-5 hover:text-white transition hover:duration-700 ease-in-out'> { menuLink.menu }</Link>
                             )))}
                             
                             <button className="bg-red-950 rounded-full px-5 py-2 lg:hidden" id="resume-btn">My Resume</button>
@@ -25,7 +25,7 @@ function Header() {
                     </nav>
 
                     <div className="flex items-center gap-6">
-                        <button className="bg-red-900 rounded-md px-10 py-3 text-white lg:block" id="resume-btn">My Resume</button>
+                        <button className="bg-red-800 rounded-md px-10 py-3 text-white lg:block" id="resume-btn">My Resume</button>
                     </div>
                 </header>
             </section>
