@@ -1,11 +1,11 @@
 import projectMenuLinks from '../../projectMenu.json';
-import logo from '../../../public/main-logo.svg';
+import logo from '../../assets/image/main-logo-transparent.svg';
 import { Link } from 'react-router-dom';
 
 function ProjectHeader() {
   return (
     <>
-    <section className="shadow-md w-[100%]">
+    <section className="shadow-md w-[100%] font-mono">
         <header
             className="flex justify-between items-center w-[90%] mx-auto py-5 text-black lg:sticky lg:top-3">
                 <img src= { logo } alt="" className='w-24 h-12' />

@@ -6,7 +6,7 @@ function MyProjects() {
     return (
         <>
 
-            <section>
+            <section className="bg-gray-50">
                 <ProjectHeader />
                 <Projects />
                 <Footer />
