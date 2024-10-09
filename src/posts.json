@@ -3,36 +3,63 @@
     {
         "id": "1",
         "title": "Landing Page for Comfort Haven",
+        "category": "Tailwind CSS",
         "description": "Responsive HTML/CSS layout for the online furniture store Comfort Haven"
     },
 
     {
         "id": "2",
         "title": "Landing Page for VIVA FIT",
+        "category": "HTML & CSS",
         "description": "Responsive HTML/CSS layout for the online fitness store VIVA FIT"
     },
 
     {
         "id": "3",
         "title": "Landing Page for CV/Resume Builder",
+        "category": "HTML & CSS",
         "description": "Responsive HTML/CSS layout for the online store CV/Resume Builder"
     },
 
     {
         "id": "4",
         "title": "Landing Page for Film Fusion",
+        "category": "HTML & CSS",
         "description": "Responsive HTML/CSS layout for the online movie website for Film Fusion"
     },
 
     {
         "id": "5",
         "title": "Landing Page for ShowPrime",
+        "category": "Javascript",
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
     },
 
     {
         "id": "6",
         "title": "Landing Page for ShowPrime",
+        "category": "HTML & CSS",
+        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
+    },
+
+    {
+        "id": "7",
+        "title": "FA Coded Portfolio Website",
+        "category": "React JS",
+        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
+    },
+
+    {
+        "id": "8",
+        "title": "Rock Paper Scissors Game",
+        "category": "Javascript",
+        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
+    },
+
+    {
+        "id": "9",
+        "title": "Clone copy of the Unbounce Website",
+        "category": "Javascript",
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
     }
 
