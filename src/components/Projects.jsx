@@ -14,7 +14,7 @@ function Projects () {
 return (
     <>
 
-        <article className="py-5 px-5 flex flex-wrap gap-10 w-[90%] mx-auto font-mono">
+        <article className="py-5 px-5 flex flex-wrap gap-5 w-[90%] mx-auto font-mono">
 
             {postSummaries.map((postSummary) => (
 

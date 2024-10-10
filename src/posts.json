@@ -41,6 +41,7 @@
         "title": "Rock Paper Scissors Game",
         "category": "Javascript",
         "gitHubPath": "https://github.com/FirstAyo/showprime",
+        "image": "../../public/rockpaperscissors.png",
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
     },
 
@@ -49,6 +50,7 @@
         "title": "Landing Page for ShowPrime",
         "category": "Tailwind CSS",
         "gitHubPath": "https://github.com/FirstAyo/showprime",
+        "image": "../../public/showprime.png",
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
     },
 
@@ -63,17 +65,19 @@
 
     {
         "id": "8",
-        "title": "Rock Paper Scissors Game",
+        "title": "Light Bulb On and Off",
         "category": "Javascript",
         "gitHubPath": "https://github.com/FirstAyo",
+        "image": "../../public/lightbulb.png",
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
     },
 
     {
         "id": "9",
         "title": "Clone copy of the Unbounce Website",
-        "category": "Javascript",
+        "category": "HTML & CSS",
         "gitHubPath": "https://github.com/FirstAyo/unbounce-web",
+        "image": "../../public/unbounce.png",
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
     }
 
