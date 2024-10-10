@@ -38,7 +38,7 @@
 
     {
         "id": "5",
-        "title": "Landing Page for ShowPrime",
+        "title": "Rock Paper Scissors Game",
         "category": "Javascript",
         "gitHubPath": "https://github.com/FirstAyo/showprime",
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
@@ -47,7 +47,7 @@
     {
         "id": "6",
         "title": "Landing Page for ShowPrime",
-        "category": "HTML & CSS",
+        "category": "Tailwind CSS",
         "gitHubPath": "https://github.com/FirstAyo/showprime",
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
     },
@@ -57,6 +57,7 @@
         "title": "FA Coded Portfolio Website",
         "category": "React JS",
         "gitHubPath": "https://github.com/FirstAyo/facoded",
+        "image": "../../public/facoded.png",
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
     },
 
