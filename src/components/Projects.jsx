@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import comfortImage from '../assets/image/furnitureStore.PNG';
+// import comfortImage from '../../public/fitnessPage.jpeg';
 import postSummaries from '../posts.json';
 
 
@@ -21,7 +21,7 @@ return (
                 <div key={postSummary.id} className='grow basis-[320px] flex-1 flex flex-col shadow-md rounded-md px-5 py-5 relative bg-white'>
                     <p className='absolute top-0 left-0 px-2 py-1 text-white font-semibold bg-red-800/70'>{ postSummary.category }</p>
 
-                    <img src={comfortImage} alt="" className="w-full h-[185px] flex-1" />
+                    <img src={ postSummary.image } alt="" className="w-full h-[185px] flex-1" />
 
                     <h2 className="font-bold my-3 flex-1">{postSummary.title}</h2>
                     <p className="text-sm text-gray-600 flex-1">{ postSummary.description }</p>

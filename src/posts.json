@@ -5,6 +5,7 @@
         "title": "Landing Page for Comfort Haven",
         "category": "Tailwind CSS",
         "gitHubPath": "https://github.com/FirstAyo/Comfort_Haven",
+        "image": "../../public/furnitureStore.png",
         "description": "Responsive HTML/CSS layout for the online furniture store Comfort Haven"
     },
 
@@ -13,6 +14,7 @@
         "title": "Landing Page for VIVA FIT",
         "category": "HTML & CSS",
         "gitHubPath": "https://github.com/FirstAyo/vivafit",
+        "image": "../../public/fitnessPage.jpeg",
         "description": "Responsive HTML/CSS layout for the online fitness store VIVA FIT"
     },
 
@@ -21,6 +23,7 @@
         "title": "Landing Page for CV/Resume Builder",
         "category": "HTML & CSS",
         "gitHubPath": "https://github.com/FirstAyo",
+        "image": "../../public/bundleMobile.jpeg",
         "description": "Responsive HTML/CSS layout for the online store CV/Resume Builder"
     },
 
@@ -29,6 +32,7 @@
         "title": "Landing Page for Film Fusion",
         "category": "HTML & CSS",
         "gitHubPath": "https://github.com/FirstAyo",
+        "image": "../../public/filmFusionPage.jpeg",
         "description": "Responsive HTML/CSS layout for the online movie website for Film Fusion"
     },
 
