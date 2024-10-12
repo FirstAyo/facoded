@@ -4,6 +4,7 @@ import AboutMe from './AboutMe';
 import MyProjects from './MyProjects';
 import ContactMe from './ContactMe';
 import Dashboard from './Dashboard';
+import Categories from './Categories';
 
 const routes = (
   <Routes>
@@ -12,6 +13,7 @@ const routes = (
     <Route path="/my-projects" element = {<MyProjects />} />
     <Route path="/contact-me" element = { <ContactMe />} />
     <Route path = "dashboard" element = { <Dashboard />} />
+    <Route path = "categories" element = { <Categories />} />
     
     {/* <!-- Add more routes here --> */}
   </Routes>

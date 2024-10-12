@@ -9,25 +9,25 @@
     {
         "id": "2",
         "menu": "HTML & CSS",
-        "path": "/my-projects"
+        "path": "/categories"
     },
 
     {
         "id": "3",
         "menu": "Tailwind CSS",
-        "path": "/about-me"
+        "path": "/categories"
     },
 
     {
         "id": "4",
         "menu": "Javascript",
-        "path": "/contact-me"
+        "path": "/categories"
     },
 
     {
         "id": "5",
         "menu": "React JS",
-        "path": "/dashboard"
+        "path": "/categories"
     }
 
 ]

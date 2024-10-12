@@ -26,11 +26,11 @@ return (
                     <h2 className="font-bold my-3">{postSummary.title}</h2>
                     <p className="text-sm text-gray-600">{ postSummary.description }</p>
 
-                    <div className="mt-10 flex flex-row gap-3 w-[95%] mx-auto md:w-full">
-                        <Link className="bg-red-800 rounded-xl flex items-center justify-center px-3 py-2 text-xs font-semibold flex-1 text-white text-center">Live
+                    <div className="mt-14 mb-3 flex flex-row gap-3 w-[100%] mx-auto md:w-full">
+                        <Link className="bg-red-800 rounded-xl flex items-center justify-center px-3 py-3 text-xs font-semibold flex-1 text-white text-center">Live
                         Preview</Link>
 
-                        <Link to={ postSummary.gitHubPath } className="bg-transparent border-2 border-red-800 rounded-xl flex items-center justify-center px-3 py-2 text-xs font-semibold flex-1 text-red-800 text-center">Check
+                        <Link to={ postSummary.gitHubPath } className="bg-transparent border-2 border-red-800 rounded-xl flex items-center justify-center px-3 py-3 text-xs font-semibold flex-1 text-red-800 text-center">Check
                             on
                             GitHub</Link>
                     </div>
