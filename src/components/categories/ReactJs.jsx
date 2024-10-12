@@ -1,22 +1,18 @@
+import Footer from "../Footer"
+import ProjectHeader from "../myprojects/ProjectHeader"
+import postSummaries from '../../posts.json';
 import { Link } from 'react-router-dom';
-// import comfortImage from '../../public/fitnessPage.jpeg';
-import postSummaries from '../posts.json';
 
 
-// const projectImages = [
-//     {src: '../assets/image/furnitureStore'},
-//     {src: '../assets/image/fitnessPage'},
-//     {src: '../assets/image/filmFusionPage'},
-//     {src: '../assets/image/bundleMobile'}
-// ];
+function ReactJs() {
 
-function Projects () {
-return (
-    <>
+    const filteredPost = postSummaries.filter(postSummary => postSummary.category == 'React JS')
+    return (
+        <>
+            <ProjectHeader />
+            <article className="py-5 px-5 flex flex-wrap gap-6 w-[100%] mx-auto font-mono">
 
-        <article className="py-5 px-5 flex flex-wrap gap-6 w-[100%] mx-auto font-mono">
-
-            {postSummaries.map((postSummary) => (
+            {filteredPost.map((postSummary) => (
 
                 <div key={postSummary.id} className='grow basis-[320px] flex-1 flex flex-col shadow-md rounded-md px-5 py-5 relative bg-white'>
                     <p className='absolute top-0 left-0 px-2 py-1 text-white font-semibold bg-red-800/70'>{ postSummary.category }</p>
@@ -39,10 +35,9 @@ return (
             ))}
 
         </article>
-
-    </>
-)
+            <Footer />
+        </>
+    )
 }
 
-
-export default Projects
+export default ReactJs

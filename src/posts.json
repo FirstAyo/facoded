@@ -56,7 +56,7 @@
 
     {
         "id": 7,
-        "title": "FA Coded Portfolio Website",
+        "title": "FA Coded Portfolio Website-1",
         "category": "React JS",
         "gitHubPath": "https://github.com/FirstAyo/facoded",
         "image": "../../public/facoded.png",
@@ -78,6 +78,24 @@
         "category": "HTML & CSS",
         "gitHubPath": "https://github.com/FirstAyo/unbounce-web",
         "image": "../../public/unbounce.png",
+        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
+    },
+
+    {
+        "id": 10,
+        "title": "FA Coded Portfolio Website-2",
+        "category": "React JS",
+        "gitHubPath": "https://github.com/FirstAyo/facoded",
+        "image": "../../public/facoded.png",
+        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
+    },
+
+    {
+        "id": 11,
+        "title": "FA Coded Portfolio Website-3",
+        "category": "React JS",
+        "gitHubPath": "https://github.com/FirstAyo/facoded",
+        "image": "../../public/facoded.png",
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
     }
 
