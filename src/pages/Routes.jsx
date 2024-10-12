@@ -6,6 +6,7 @@ import ContactMe from './ContactMe';
 import Dashboard from './Dashboard';
 import Categories from './Categories';
 import ReactJs from '../components/categories/ReactJs';
+import SinglePost from './SinglePost';
 
 const routes = (
   <Routes>
@@ -16,6 +17,7 @@ const routes = (
     <Route path = "dashboard" element = { <Dashboard />} />
     <Route path = "categories" element = { <Categories />} />
     <Route path = "react-js" element = { <ReactJs />} />
+    <Route path = "single-post" element = { <SinglePost />} />
     
     {/* <!-- Add more routes here --> */}
   </Routes>
