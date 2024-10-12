@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 // import comfortImage from '../../public/fitnessPage.jpeg';
 import postSummaries from '../posts.json';
-import SinglePost from '../pages/SinglePost';
-
 
 // const projectImages = [
 //     {src: '../assets/image/furnitureStore'},
