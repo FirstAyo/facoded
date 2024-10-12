@@ -1,7 +1,7 @@
 [
 
     {
-        "id": "1",
+        "id": 1,
         "title": "Landing Page for Comfort Haven",
         "category": "Tailwind CSS",
         "gitHubPath": "https://github.com/FirstAyo/Comfort_Haven",
@@ -10,7 +10,7 @@
     },
 
     {
-        "id": "2",
+        "id": 2,
         "title": "Landing Page for VIVA FIT",
         "category": "HTML & CSS",
         "gitHubPath": "https://github.com/FirstAyo/vivafit",
@@ -19,7 +19,7 @@
     },
 
     {
-        "id": "3",
+        "id": 3,
         "title": "Landing Page for CV/Resume Builder",
         "category": "HTML & CSS",
         "gitHubPath": "https://github.com/FirstAyo",
@@ -28,7 +28,7 @@
     },
 
     {
-        "id": "4",
+        "id": 4,
         "title": "Landing Page for Film Fusion",
         "category": "HTML & CSS",
         "gitHubPath": "https://github.com/FirstAyo",
@@ -37,7 +37,7 @@
     },
 
     {
-        "id": "5",
+        "id": 5,
         "title": "Rock Paper Scissors Game",
         "category": "Javascript",
         "gitHubPath": "https://github.com/FirstAyo/showprime",
@@ -46,7 +46,7 @@
     },
 
     {
-        "id": "6",
+        "id": 6,
         "title": "Landing Page for ShowPrime",
         "category": "Tailwind CSS",
         "gitHubPath": "https://github.com/FirstAyo/showprime",
@@ -55,7 +55,7 @@
     },
 
     {
-        "id": "7",
+        "id": 7,
         "title": "FA Coded Portfolio Website",
         "category": "React JS",
         "gitHubPath": "https://github.com/FirstAyo/facoded",
@@ -64,7 +64,7 @@
     },
 
     {
-        "id": "8",
+        "id": 8,
         "title": "Light Bulb On and Off",
         "category": "Javascript",
         "gitHubPath": "https://github.com/FirstAyo",
@@ -73,7 +73,7 @@
     },
 
     {
-        "id": "9",
+        "id": 9,
         "title": "Clone copy of the Unbounce Website",
         "category": "HTML & CSS",
         "gitHubPath": "https://github.com/FirstAyo/unbounce-web",
