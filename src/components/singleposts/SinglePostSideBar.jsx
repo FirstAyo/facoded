@@ -13,7 +13,7 @@ function SinglePostSideBar() {
             <section>
                 {randomPosts.map((postContent) => (
                     <div key={postContent.id}>
-                        <img src={postContent.image} alt="" className='w-[100%]' />
+                        <img src={postContent.image} alt="" className='w-[100%] h-52' />
                         <Link><h2>{postContent.title}</h2></Link>
                     </div>
                 ))}
