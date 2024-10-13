@@ -3,7 +3,7 @@ import featuredImg from '../../../public/fitnessPage.jpeg'
 function SinglePosts() {
   return (
     <>
-    <section className=''>
+    <section className='px-5 py-3'>
 
         <div>
             <p>Category</p>
