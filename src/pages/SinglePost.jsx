@@ -7,11 +7,11 @@ function SinglePost() {
         <>
 
             <ProjectHeader />
-            <div className="w-[95%] mx-auto flex flex-col lg:flex-row my-10">
-                <div className="lg:w-[70%]">
+            <div className="w-[95%] mx-auto flex flex-col gap-5 lg:flex-row my-10">
+                <div className="w-[95%] mx-auto lg:w-[70%] shadow-2xl">
                     <SinglePosts />
                 </div>
-                <div className="lg:w-[30%]">
+                <div className="lg:w-[30%] shadow-2xl">
                     <SinglePostSideBar />
                 </div>
             </div>
