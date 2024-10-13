@@ -1,4 +1,6 @@
+import Footer from "../components/Footer"
 import ProjectHeader from "../components/myprojects/ProjectHeader"
+import SearchInput from "../components/SearchInput"
 import SinglePosts from "../components/singleposts/SinglePosts"
 import SinglePostSideBar from "../components/singleposts/SinglePostSideBar"
 
@@ -7,6 +9,7 @@ function SinglePost() {
         <>
 
             <ProjectHeader />
+            <SearchInput />
             <div className="w-[95%] mx-auto flex flex-col gap-5 lg:flex-row my-10">
                 <div className="w-[95%] mx-auto lg:w-[70%] shadow-2xl">
                     <SinglePosts />
@@ -15,6 +18,8 @@ function SinglePost() {
                     <SinglePostSideBar />
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }
