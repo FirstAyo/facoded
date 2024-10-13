@@ -6,7 +6,10 @@
         "category": "Tailwind CSS",
         "gitHubPath": "https://github.com/FirstAyo/Comfort_Haven",
         "image": "../../public/furnitureStore.png",
-        "description": "Responsive HTML/CSS layout for the online furniture store Comfort Haven"
+        "description": "Responsive HTML/CSS layout for the online furniture store Comfort Haven",
+        "post": [
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!"
+        ]
     },
 
     {
