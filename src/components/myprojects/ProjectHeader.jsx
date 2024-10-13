@@ -8,7 +8,7 @@ function ProjectHeader() {
     <section className="shadow-md w-[100%] font-mono">
         <header
             className="flex justify-between items-center w-[90%] mx-auto py-5 text-black lg:sticky lg:top-3">
-                <img src= { logo } alt="" className='w-24 h-12' />
+                <Link to={'/'}><img src={logo} alt="" className='w-24 h-12' /></Link>
 
             {/* <h1 className="text-red-900 font-bold text-2xl">FaCoded</h1> */}
 

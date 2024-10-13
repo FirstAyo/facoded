@@ -1,25 +1,34 @@
 import featuredImg from '../../../public/fitnessPage.jpeg'
+import postData from '../../posts.json';
 
-function SinglePosts() {
+function SinglePosts(props) {
+
+    const posts = postData.find(function(posts) {
+        return posts.id === props.postsId;    });
+
+    if (!posts) {
+        return <div>Post not found</div>;
+    }
+
+    const paragraphs = posts.content.split('\n');
+
   return (
     <>
     <section className='px-5 py-3'>
 
         <div>
-            <p>Category</p>
-            <h2>This is the Heading for the single post</h2>
+            <p> { posts.category } </p>
+            <h2>{posts.title}</h2>
         </div>
 
         <div>
-            <img src={ featuredImg } alt="" />
+            <img src={ posts.image } alt="" />
         </div>
 
         <div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!</p>
+        {paragraphs.map(function(paragraph, index) {
+        return <p key={index}>{paragraph}</p>;
+      })}
         </div>
     </section>
     </>

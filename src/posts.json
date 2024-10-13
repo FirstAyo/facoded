@@ -78,7 +78,10 @@
         "category": "HTML & CSS",
         "gitHubPath": "https://github.com/FirstAyo/unbounce-web",
         "image": "../../public/unbounce.png",
-        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
+        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
+        "post": [
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!"
+        ]
     },
 
     {
