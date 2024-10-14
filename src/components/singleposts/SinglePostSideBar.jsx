@@ -14,6 +14,8 @@ function SinglePostSideBar() {
 
     return (
         <>
+
+            <h1 className='font-mono text-3xl text-center font-semibold py-5 text-red-800 tracking-wider'>Random Posts</h1>
             <section className='font-mono flex flex-col md:grid md:grid-cols-2 lg:grid-cols-1 gap-8'>
                 {randomPosts.map((postContent) => (
                     <div key={postContent.id} className='flex flex-col shadow-xl border-red-800 px-4 py-3'>
