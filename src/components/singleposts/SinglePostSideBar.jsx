@@ -10,7 +10,7 @@ function SinglePostSideBar() {
     }
     return (
         <>
-            <section className='font-mono flex flex-col gap-5'>
+            <section className='font-mono flex flex-col md:grid md:grid-cols-2 lg:grid-cols-1 gap-8'>
                 {randomPosts.map((postContent) => (
                     <div key={postContent.id} className='flex flex-col shadow-xl border-red-800 px-4 py-3'>
                         <img src={postContent.image} alt="" className='w-[100%] h-52' />
