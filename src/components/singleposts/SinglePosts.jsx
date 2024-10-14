@@ -13,20 +13,20 @@ function SinglePosts(props) {
 
   return (
     <>
-    <section className='px-5 py-3'>
+    <section className='px-5 py-3 font-mono'>
 
-        <div>
-            <p> { posts.category } </p>
-            <h2>{posts.title}</h2>
+        <div className='w-[95%] mx-auto border-b border-red-800'>
+            <p className='text-red-800 font-semibold py-1'> { posts.category } </p>
+            <h2 className='text-xl tracking-wide font-semibold py-2 md:text-3xl'>{posts.title}</h2>
         </div>
 
-        <div>
-            <img src={ posts.image } alt="" />
+        <div className='w-[95%] mx-auto h-64 md:h-96'>
+            <img src={ posts.image } alt="" className='py-5 w-[100%] h-[100%]' />
         </div>
 
-        <div>
+        <div className='w-[95%] mx-auto'>
         {paragraphs.map(function(paragraph, index) {
-        return <p key={index} className='py-5'>{paragraph}</p>;
+        return <p key={index} className='py-2'>{paragraph}</p>;
       })}
         </div>
     </section>
