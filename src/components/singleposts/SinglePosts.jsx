@@ -1,4 +1,4 @@
-import featuredImg from '../../../public/fitnessPage.jpeg'
+// import featuredImg from '../../../public/fitnessPage.jpeg'
 import postData from '../../posts.json';
 
 function SinglePosts(props) {
@@ -10,7 +10,7 @@ function SinglePosts(props) {
         return <div>Post not found</div>;
     }
 
-    const paragraphs = posts.content.split('\n');
+    const paragraphs = posts.post;
 
   return (
     <>
@@ -27,7 +27,7 @@ function SinglePosts(props) {
 
         <div>
         {paragraphs.map(function(paragraph, index) {
-        return <p key={index}>{paragraph}</p>;
+        return <p key={index} className='py-5'>{paragraph}</p>;
       })}
         </div>
     </section>
