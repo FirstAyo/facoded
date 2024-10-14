@@ -1,9 +1,15 @@
 // import featuredImg from '../../../public/fitnessPage.jpeg'
+import { useParams } from 'react-router-dom';
 import postData from '../../posts.json';
-function SinglePosts(props) {
 
-    const posts = postData.find(function(posts) {
-        return posts.id === props.postsId;    });
+function SinglePosts() {
+
+    const { id } = useParams();
+    const postId = parseInt(id, 10);
+
+    const posts = postData.find(function(post) {
+        return post.id === postId;    
+    });
 
     if (!posts) {
         return <div>Post not found</div>;
@@ -13,6 +19,7 @@ function SinglePosts(props) {
 
   return (
     <>
+   
     <section className='px-5 py-3 font-mono'>
 
         <div className='w-[95%] mx-auto border-b border-red-800'>

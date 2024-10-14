@@ -7,20 +7,23 @@ import Dashboard from './Dashboard';
 import Categories from './Categories';
 import ReactJs from '../components/categories/ReactJs';
 import SinglePost from './SinglePost';
+// import SinglePosts from '../components/singleposts/SinglePosts';
+
 
 const routes = (
-  <Routes>
-    <Route path="/" element = {<HomePage />} />
-    <Route path="/about-me" element = {<AboutMe />} />
-    <Route path="/my-projects" element = {<MyProjects />} />
-    <Route path="/contact-me" element = { <ContactMe />} />
-    <Route path = "dashboard" element = { <Dashboard />} />
-    <Route path = "categories" element = { <Categories />} />
-    <Route path = "react-js" element = { <ReactJs />} />
-    <Route path = "single-post" element = { <SinglePost />} />
-    
-    {/* <!-- Add more routes here --> */}
-  </Routes>
+
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/about-me" element={<AboutMe />} />
+      <Route path="/my-projects" element={<MyProjects />} />
+      <Route path="/contact-me" element={<ContactMe />} />
+      <Route path="dashboard" element={<Dashboard />} />
+      <Route path="categories" element={<Categories />} />
+      <Route path="react-js" element={<ReactJs />} />
+      <Route path="single-post/:id" element={<SinglePost />} />
+
+      {/* <!-- Add more routes here --> */}
+    </Routes>
 );
 
 export default routes;
