@@ -1,6 +1,5 @@
 // import featuredImg from '../../../public/fitnessPage.jpeg'
 import postData from '../../posts.json';
-
 function SinglePosts(props) {
 
     const posts = postData.find(function(posts) {

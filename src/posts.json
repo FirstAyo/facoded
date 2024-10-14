@@ -8,7 +8,9 @@
         "image": "../../public/furnitureStore.png",
         "description": "Responsive HTML/CSS layout for the online furniture store Comfort Haven",
         "post": [
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!"
+            "Comfort Haven is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
+
+            "Comfort Haven is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
         ]
     },
 
@@ -18,7 +20,12 @@
         "category": "HTML & CSS",
         "gitHubPath": "https://github.com/FirstAyo/vivafit",
         "image": "../../public/fitnessPage.jpeg",
-        "description": "Responsive HTML/CSS layout for the online fitness store VIVA FIT"
+        "description": "Responsive HTML/CSS layout for the online fitness store VIVA FIT",
+        "post": [
+            "Viva Fit is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
+
+            "Viva Fit is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
+        ]
     },
 
     {
@@ -27,7 +34,12 @@
         "category": "HTML & CSS",
         "gitHubPath": "https://github.com/FirstAyo",
         "image": "../../public/bundleMobile.jpeg",
-        "description": "Responsive HTML/CSS layout for the online store CV/Resume Builder"
+        "description": "Responsive HTML/CSS layout for the online store CV/Resume Builder",
+        "post": [
+            "CV/Resume Builder is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
+
+            "CV/Resume Builder is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
+        ]
     },
 
     {
@@ -36,7 +48,12 @@
         "category": "HTML & CSS",
         "gitHubPath": "https://github.com/FirstAyo",
         "image": "../../public/filmFusionPage.jpeg",
-        "description": "Responsive HTML/CSS layout for the online movie website for Film Fusion"
+        "description": "Responsive HTML/CSS layout for the online movie website for Film Fusion",
+        "post": [
+            "Film Fusion is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
+
+            "Film Fusion is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
+        ]
     },
 
     {
@@ -45,7 +62,12 @@
         "category": "Javascript",
         "gitHubPath": "https://github.com/FirstAyo/showprime",
         "image": "../../public/rockpaperscissors.png",
-        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
+        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
+        "post": [
+            "Rock Paper Scissors is a Javsscript game that is web based. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
+
+            "Rock Paper Scissors is a Javsscript game that is web based. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
+        ]
     },
 
     {
@@ -54,7 +76,12 @@
         "category": "Tailwind CSS",
         "gitHubPath": "https://github.com/FirstAyo/showprime",
         "image": "../../public/showprime.png",
-        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
+        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
+        "post": [
+            "Show Prime is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
+
+            "Show Prime is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
+        ]
     },
 
     {
@@ -63,7 +90,12 @@
         "category": "React JS",
         "gitHubPath": "https://github.com/FirstAyo/facoded",
         "image": "../../public/facoded.png",
-        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
+        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
+        "post": [
+            "Fa Coded is the portfolio website built by me. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
+
+            "Fa Coded is the portfolio website built by me. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
+        ]
     },
 
     {
@@ -72,7 +104,12 @@
         "category": "Javascript",
         "gitHubPath": "https://github.com/FirstAyo",
         "image": "../../public/lightbulb.png",
-        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
+        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
+        "post": [
+            "Light Bulb is a Javsscript game that is web based. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
+
+            "Light Bulb is a Javsscript game that is web based. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
+        ]
     },
 
     {
@@ -84,7 +121,7 @@
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
         "post": [
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!",
-            
+
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!",
 
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!"
@@ -97,7 +134,12 @@
         "category": "React JS",
         "gitHubPath": "https://github.com/FirstAyo/facoded",
         "image": "../../public/facoded.png",
-        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
+        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
+        "post": [
+            "Fa Coded-2 is the portfolio website built by me. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
+
+            "Fa Coded-2 is the portfolio website built by me. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
+        ]
     },
 
     {
@@ -106,7 +148,12 @@
         "category": "React JS",
         "gitHubPath": "https://github.com/FirstAyo/facoded",
         "image": "../../public/facoded.png",
-        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime"
+        "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
+        "post": [
+            "Fa Coded-3 is the portfolio website built by me. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
+
+            "Fa Coded-3 is the portfolio website built by me. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
+        ]
     }
 
 ]
