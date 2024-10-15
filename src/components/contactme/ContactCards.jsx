@@ -30,7 +30,7 @@ function ContactCards() {
     return (
         <>
 
-            <section className='flex gap-5 w-[90%] mx-auto mt-10 mb-20 font-mono'>
+            <section className='flex flex-col lg:flex-row gap-5 w-[90%] mx-auto mt-10 mb-20 font-mono'>
 
                 {dataItems.map((dataItem) => (
                     <div  key={ dataItem.id } className='flex-1 flex items-center gap-5 py-5 rounded-md px-5 bg-white shadow-2xl'>
