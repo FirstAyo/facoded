@@ -5,21 +5,25 @@ import Header from "../components/Header"
 import gitHub from '../assets/image/github.png'
 import linkedIn from '../assets/image/linkedin.png'
 import email from '../assets/image/email.png'
+import { Link } from "react-router-dom"
 
 function ContactMe() {
 
     const socialIcons = [
         {
             "id": "1",
-            "image": gitHub
+            "image": gitHub,
+            "url": "https://github.com/FirstAyo"
         },
         {
             "id": "2",
-            "image": email
+            "image": email,
+            "url": "mailto:firstayomike@gmail.com?"
         },
         {
             "id": "3",
-            "image": linkedIn
+            "image": linkedIn,
+            "url": "https://www.linkedin.com/in/firstayo/"
         }
     ]
 
@@ -33,10 +37,12 @@ function ContactMe() {
                         <p className="text-xl text-center lg:text-start">Ready to start your next project or have any questions? Feel free to reach out to me.</p>
 
                         <div className="flex items-center justify-center lg:justify-start gap-5 w-[100%] pb-10 pt-2">
-                            { socialIcons.map ((socialIcon => (
-                                <div className="bg-white w-[50px] h-[50px] rounded-full shadow-md border-2 border-gray-700" key={ socialIcon.id }>
-                                <img src={ socialIcon.image } alt="" className="w-full p-3" />
-                            </div>
+                            {socialIcons.map((socialIcon => (
+                                <div className="bg-white w-[50px] h-[50px] rounded-full shadow-md border-2 border-gray-700" key={socialIcon.id}>
+                                    <Link to={ socialIcon.url }>
+                                        <img src={socialIcon.image} alt="" className="w-full p-3" />
+                                    </Link>
+                                </div>
                             )))}
                         </div>
                     </div>
