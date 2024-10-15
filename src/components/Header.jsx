@@ -24,13 +24,15 @@ function Header() {
                     {/* <h1 className="text-red-900 font-bold text-2xl">FaCoded</h1> */}
 
                     <nav
-                        className="border-[#FFDBD9] border-2 lg:border-none nav-links duration-500 absolute top-[-100%] w-[80.1%] lg:w-auto min-h-[35vh] mx-auto flex items-center px-5 lg:min-h-fit lg:static">
+                        className={` duration-500 absolute lg:w-auto mx-auto flex items-center px-5 lg:min-h-fit lg:static ${
+                            menuOpen ? 'top-[8%] bg-white/95 w-[100%] left-0' : 'top-[-100%] bg-white w-[100%]'
+                          }`}>
                         <ul className="flex flex-col lg:flex-row my-5 lg:my-0 text-lg font-semibold">
                             {menuLinks.map((menuLink => (
-                                <Link to={menuLink.path} key={menuLink.id} className='hover:bg-red-800 py-2 px-5 hover:text-white transition hover:duration-700 ease-in-out'> {menuLink.menu}</Link>
+                                <Link to={menuLink.path} key={menuLink.id} className='hover:bg-red-800 py-3 lg:py-0 px-5 hover:text-white transition hover:duration-700 ease-in-out'> {menuLink.menu}</Link>
                             )))}
 
-                            <button className="bg-red-950 rounded-full px-5 py-2 lg:hidden" id="resume-btn">My Resume</button>
+                            <button className="bg-red-800 rounded-md px-5 py-2 lg:hidden" id="resume-btn">My Resume</button>
                         </ul>
                     </nav>
 
