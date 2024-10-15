@@ -1,13 +1,15 @@
 import Footer from "../components/Footer"
-import ProjectHeader from "../components/myprojects/ProjectHeader"
+import Header from "../components/Header"
 import Projects from "../components/Projects"
+import SearchInput from "../components/SearchInput"
 
 function MyProjects() {
     return (
         <>
 
             <section className="bg-gray-50">
-                <ProjectHeader />
+                <Header />
+                <SearchInput />
                 <Projects />
                 <Footer />
             </section>

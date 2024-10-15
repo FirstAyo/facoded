@@ -29,10 +29,10 @@ function Header() {
                           }`}>
                         <ul className="flex flex-col lg:flex-row my-5 lg:my-0 text-lg font-semibold">
                             {menuLinks.map((menuLink => (
-                                <Link to={menuLink.path} key={menuLink.id} className='hover:bg-red-800 py-3 lg:py-0 px-5 hover:text-white transition hover:duration-700 ease-in-out'> {menuLink.menu}</Link>
+                                <Link to={menuLink.path} key={menuLink.id} className='hover:bg-red-800 py-3 lg:py-2 px-5 hover:text-white transition hover:duration-700 ease-in-out'> {menuLink.menu}</Link>
                             )))}
 
-                            <button className="bg-red-800 rounded-md px-5 py-2 lg:hidden" id="resume-btn">My Resume</button>
+                            <button className="bg-red-800 text-white rounded-md px-5 my-2 py-2 lg:hidden" id="resume-btn">My Resume</button>
                         </ul>
                     </nav>
 
