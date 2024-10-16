@@ -10,7 +10,7 @@ function MyProjects() {
             <section className="bg-gray-50">
                 <Header />
                 <SearchInput />
-                <Projects />
+                <Projects postStart = {0} postEnd = {9} />
                 <Footer />
             </section>
 

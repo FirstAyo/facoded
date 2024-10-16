@@ -9,13 +9,13 @@ import postSummaries from '../posts.json';
 //     {src: '../assets/image/bundleMobile'}
 // ];
 
-function Projects () {
+function Projects ({postStart = 0, postEnd = 6}) {
 return (
     <>
 
         <article className="py-5 px-5 grid gap-6 w-[100%] mx-auto font-mono md:grid-cols-2 lg:grid-cols-3">
 
-            {postSummaries.map((postSummary) => (
+            {postSummaries.slice( postStart, postEnd ).map((postSummary) => (
 
                 <div key={postSummary.id} className='flex flex-col shadow-md rounded-md px-5 py-5 relative bg-white'>
                     <p className='absolute top-0 left-0 px-2 py-1 text-white font-semibold bg-red-800/70'>{ postSummary.category }</p>
