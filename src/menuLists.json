@@ -14,20 +14,14 @@
 
     {
         "id": "3",
-        "menu": "About",
+        "menu": "About Me",
         "path": "/about-me"
     },
 
     {
         "id": "4",
-        "menu": "Contact",
+        "menu": "Contact Me",
         "path": "/contact-me"
-    },
-
-    {
-        "id": "5",
-        "menu": "Dashboard",
-        "path": "/dashboard"
     }
 
 ]

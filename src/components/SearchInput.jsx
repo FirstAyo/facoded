@@ -2,7 +2,7 @@
 function SearchInput() {
 
     function searchButtonAlert () {
-        alert("I am working on making the search query functional");
+        alert("I am working on making the search query functional. You can use the menu to navigate the website or use the Contact Me form to send me a message.");
     }
 
     return (
