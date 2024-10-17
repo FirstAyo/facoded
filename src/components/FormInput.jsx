@@ -1,5 +1,11 @@
+import { Link } from "react-router-dom"
 
 function FormInput() {
+
+    function sendButton () {
+        alert("I am working on validating user input and getting your messages when you try to contact me. This form should be able to work in the coming days. In the main time, you can click on any of the Social Media Icons( to your left in desktop view and top of this form in mobile view) to contact me. Thank you for your understanding")
+    }
+
     return (
         <>
 
@@ -26,7 +32,7 @@ function FormInput() {
                     </div>
 
                     <div className="w-[90%] mx-auto items">
-                        <button className="bg-red-800 rounded-full text-white px-1 py-2 text-lg font-semibold flex-1 w-[95%] mb-10">Send</button>
+                        <Link onClick={sendButton}><button className="bg-red-800 rounded-full text-white px-1 py-2 text-lg font-semibold flex-1 w-[95%] mb-10">Send</button></Link>
                     </div>
                 </form>
             </div>
