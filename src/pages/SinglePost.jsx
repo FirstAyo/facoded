@@ -3,7 +3,7 @@ import Footer from "../components/Footer"
 import SearchInput from "../components/SearchInput"
 // import SinglePosts from "../components/singleposts/SinglePosts"
 import SinglePostSideBar from "../components/singleposts/SinglePostSideBar"
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import postData from '../posts.json';
 import Header from "../components/Header";
 
@@ -30,9 +30,9 @@ function SinglePost() {
 
             {/* This is the code that renders the single posts from the json file. I took it from the singleposts components. i would love for it to be in its own component and pass the postId as props but I will work on that on a later date */}
 
-            <div className="w-[95%] mx-auto flex flex-col gap-5 lg:flex-row my-10">
+            <div className="w-[95%] mx-auto flex flex-col gap-5 lg:flex-row my-10 font-mono">
                 <div className="lg:w-[70%] shadow-2xl">
-                    <section className='px-5 py-3 font-mono'>
+                    <section className='px-5 py-3'>
 
                         <div className='w-[95%] mx-auto border-b border-red-800'>
                             <p className='text-red-800 font-semibold py-1'> {posts.category} </p>
@@ -49,6 +49,10 @@ function SinglePost() {
                             })}
                         </div>
                     </section>
+                    <div className="w-[90%] mx-auto my-10 flex gap-3 flex-col md:flex-row">
+                        <Link className="flex-1 text-center py-5 rounded-sm bg-red-800 text-white">Live View</Link>
+                        <Link to={posts.gitHubPath} className="flex-1 text-center py-5 rounded-sm bg-red-800">View on GitHub</Link>
+                    </div>
                 </div>
                 <div className="lg:w-[30%] shadow-2xl">
                     <SinglePostSideBar />
