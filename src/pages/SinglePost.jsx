@@ -22,6 +22,10 @@ function SinglePost() {
 
     const paragraphs = posts.post;
 
+    function viewLiveButton () {
+        alert("This webpage is not hosted yet. I am working on hosting it soon. Please come back and click this button in a few days time. Thank you")
+    }
+
     return (
         <>
 
@@ -50,8 +54,8 @@ function SinglePost() {
                         </div>
                     </section>
                     <div className="w-[90%] mx-auto my-10 flex gap-3 flex-col md:flex-row">
-                        <Link className="flex-1 text-center py-5 rounded-sm bg-red-800 text-white">Live View</Link>
-                        <Link to={posts.gitHubPath} className="flex-1 text-center py-5 rounded-sm bg-red-800">View on GitHub</Link>
+                        <Link onClick={viewLiveButton} className="flex-1 text-center py-5 rounded-sm bg-red-800 text-white text-xl font-semibold">Live View</Link>
+                        <Link to={posts.gitHubPath} className="flex-1 text-center py-5 rounded-sm bg-transparent border-2 border-red-800 text-red-800 text-xl font-semibold">View on GitHub</Link>
                     </div>
                 </div>
                 <div className="lg:w-[30%] shadow-2xl">
