@@ -1,5 +1,4 @@
 [
-
     {
         "id": 1,
         "title": "Landing Page for Comfort Haven",
@@ -8,12 +7,36 @@
         "image": "../../public/furnitureStore.png",
         "description": "Responsive HTML/CSS layout for the online furniture store Comfort Haven",
         "post": [
-            "Comfort Haven is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
+            "Comfort Haven is a concept landing page website designed by Priscila Daniel for a Furniture company. It is a single page website that has some interesting sections such as the Hero section, Explore Now button, customer testimonial, etc.",
 
-            "Comfort Haven is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
+            "Comfort Haven Sections",
+
+            "1. This section is the header section and holds the logo, menu, and navigation links to other parts of the website.",
+
+            "2. Hero Section: This section highlights what the site is about with some texts and image properly aligned.",
+
+            "3. Featured Collection: The feature collection showcases some of the featured products available in various categories. It includes three photos and a video.",
+
+            "4. Recommended Section: This section shows clients/customers recommended product based on their piece and discounts.",
+            
+            "5. Top Picks Section: This section shows the favorite products picked by customers. These products are ranked by their star ratings",
+
+            "6. Testimonial Section: This section shows the response from customers who bought and used the company products.",
+
+            "7. Newsletter section: This section is where users can enter the email and subscribe to newsletter updates from Comfort Haven.",
+
+            "8. Footer Section: The footer section is a combination of menu links, contact information, and social media icon.",
+
+            "Technology Used to Build Comfort Haven",
+            "The following technology was used to build this landing page:",
+
+            "1. HTML",
+            "2. Tailwind CSS",
+            "3. JavaScript",
+            
+            "The codes for this project is available in my GitHub repo and if you want to see the live version, you can use any of the buttons below."
         ]
     },
-
     {
         "id": 2,
         "title": "Landing Page for VIVA FIT",
@@ -23,11 +46,9 @@
         "description": "Responsive HTML/CSS layout for the online fitness store VIVA FIT",
         "post": [
             "Viva Fit is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
-
             "Viva Fit is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
         ]
     },
-
     {
         "id": 3,
         "title": "Landing Page for CV/Resume Builder",
@@ -37,11 +58,9 @@
         "description": "Responsive HTML/CSS layout for the online store CV/Resume Builder",
         "post": [
             "CV/Resume Builder is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
-
             "CV/Resume Builder is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
         ]
     },
-
     {
         "id": 4,
         "title": "Landing Page for Film Fusion",
@@ -51,11 +70,9 @@
         "description": "Responsive HTML/CSS layout for the online movie website for Film Fusion",
         "post": [
             "Film Fusion is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
-
             "Film Fusion is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
         ]
     },
-
     {
         "id": 5,
         "title": "Rock Paper Scissors Game",
@@ -65,11 +82,9 @@
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
         "post": [
             "Rock Paper Scissors is a Javsscript game that is web based. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
-
             "Rock Paper Scissors is a Javsscript game that is web based. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
         ]
     },
-
     {
         "id": 6,
         "title": "Landing Page for ShowPrime",
@@ -79,11 +94,9 @@
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
         "post": [
             "Show Prime is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
-
             "Show Prime is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
         ]
     },
-
     {
         "id": 7,
         "title": "FA Coded Portfolio Website-1",
@@ -93,11 +106,9 @@
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
         "post": [
             "Fa Coded is the portfolio website built by me. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
-
             "Fa Coded is the portfolio website built by me. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
         ]
     },
-
     {
         "id": 8,
         "title": "Light Bulb On and Off",
@@ -107,11 +118,9 @@
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
         "post": [
             "Light Bulb is a Javsscript game that is web based. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
-
             "Light Bulb is a Javsscript game that is web based. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
         ]
     },
-
     {
         "id": 9,
         "title": "Clone copy of the Unbounce Website",
@@ -121,13 +130,10 @@
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
         "post": [
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!",
-
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!",
-
             "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id non illum explicabo culpa quo, neque adipisci dolore eligendi aliquid delectus assumenda ad asperiores sequi, nostrum quam. Provident laborum rerum quod!"
         ]
     },
-
     {
         "id": 10,
         "title": "FA Coded Portfolio Website-2",
@@ -137,11 +143,9 @@
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
         "post": [
             "Fa Coded-2 is the portfolio website built by me. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
-
             "Fa Coded-2 is the portfolio website built by me. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
         ]
     },
-
     {
         "id": 11,
         "title": "FA Coded Portfolio Website-3",
@@ -151,9 +155,7 @@
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
         "post": [
             "Fa Coded-3 is the portfolio website built by me. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
-
             "Fa Coded-3 is the portfolio website built by me. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
         ]
     }
-
 ]
