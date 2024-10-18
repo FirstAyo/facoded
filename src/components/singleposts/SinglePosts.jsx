@@ -1,5 +1,5 @@
 // import featuredImg from '../../../public/fitnessPage.jpeg'
-import { useParams, Link } from 'react-router-dom';
+import { useParams} from 'react-router-dom';
 import postData from '../../posts.json';
 
 function SinglePosts() {
