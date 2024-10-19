@@ -69,7 +69,7 @@ function SinglePost() {
                         <Link to={post.gitHubPath} className="flex-1 text-center py-5 rounded-sm bg-transparent border-2 border-red-800 text-red-800 text-xl font-semibold">View on GitHub</Link>
                     </div>
 
-                    <div className="w-[90%] mx-auto flex justify-between">
+                    <div className="w-[90%] mx-auto flex justify-between mb-5 py-2 lg:mb-0 lg:py-0">
                         <Link className="text-xl font-semibold hover:underline">Prev</Link>
                         <Link onClick={ getNextPost } className="text-xl font-semibold hover:underline">Next</Link>
                     </div>
