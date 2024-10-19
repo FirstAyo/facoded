@@ -8,32 +8,20 @@
         "description": "Responsive HTML/CSS layout for the online furniture store Comfort Haven",
         "post": [
             "Comfort Haven is a concept landing page website designed by Priscila Daniel for a Furniture company. It is a single page website that has some interesting sections such as the Hero section, Explore Now button, customer testimonial, etc.",
-
             "Comfort Haven Sections",
-
             "1. This section is the header section and holds the logo, menu, and navigation links to other parts of the website.",
-
             "2. Hero Section: This section highlights what the site is about with some texts and image properly aligned.",
-
             "3. Featured Collection: The feature collection showcases some of the featured products available in various categories. It includes three photos and a video.",
-
             "4. Recommended Section: This section shows clients/customers recommended product based on their piece and discounts.",
-            
             "5. Top Picks Section: This section shows the favorite products picked by customers. These products are ranked by their star ratings",
-
             "6. Testimonial Section: This section shows the response from customers who bought and used the company products.",
-
             "7. Newsletter section: This section is where users can enter the email and subscribe to newsletter updates from Comfort Haven.",
-
             "8. Footer Section: The footer section is a combination of menu links, contact information, and social media icon.",
-
             "Technology Used to Build Comfort Haven",
             "The following technology was used to build this landing page:",
-
             "1. HTML",
             "2. Tailwind CSS",
             "3. JavaScript",
-
             "The codes for this project is available in my GitHub repo and if you want to see the live version, you can use any of the buttons below."
         ]
     },
@@ -45,8 +33,35 @@
         "image": "src/assets/image/fitnessPage.jpeg",
         "description": "Responsive HTML/CSS layout for the online fitness store VIVA FIT",
         "post": [
-            "Viva Fit is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
-            "Viva Fit is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
+            "Viva Fit is a landing page website designed by Priscila Daniel for a Fitness company. It is a single page website that has some interesting sections such as the Hero section, Get Started button, customer testimonial, etc.",
+
+            "Viva Fit Sections",
+
+            "1. This section is the header section and holds the logo, menu, and customer log in icon for users with Viva Fit account.",
+
+            "2. Hero Section: This section highlights what the site is about with some texts and image properly aligned. It also include a Get Started button for new users who wants to join Viva Fit.",
+
+            "3. Why Choose Collection: This section highlights three of the top reasons why you should choose Viva Fit. The cards in this sections not only list the reasons but also includes a Learn More link to know more about any of the reasons.",
+
+            "4. About Us Section: This section shows what summary of who Viva Fit is about. It include an image and a text to explain who they are and what they do.",
+            
+            "5. Our Success Story Section: This section shows the many positive reviews and ratings from customers who have used Viva Fit. There is also a Read More Success Stories button.",
+            
+            "6. Sign Up Section: This section includes some texts, image, and a sign up button.",
+            
+            "7. Choose Membership Plan section: This section has three membership cards detailing the price and information of each plan. It also has a Get Started button for users who wants to join any of the Viva Fit Fitness programs.",
+            
+            "8. Footer Section: The footer section is a combination of menu links, contact information, and social media icon. It also has a Subscribe to newsletter section where uses can enter their email and get latest updates from Viva Fit.",
+            
+            "Technology Used to Build Viva Fit",
+            
+            "The following technology was used to build this landing page:",
+            
+            "1. HTML",
+            "2. Tailwind CSS",
+            "3. JavaScript",
+            
+            "The codes for this project is available in my GitHub repo and if you want to see the live version, you can use any of the buttons below."
         ]
     },
     {
