@@ -34,33 +34,20 @@
         "description": "Responsive HTML/CSS layout for the online fitness store VIVA FIT",
         "post": [
             "Viva Fit is a landing page website designed by Priscila Daniel for a Fitness company. It is a single page website that has some interesting sections such as the Hero section, Get Started button, customer testimonial, etc.",
-
             "Viva Fit Sections",
-
             "1. This section is the header section and holds the logo, menu, and customer log in icon for users with Viva Fit account.",
-
             "2. Hero Section: This section highlights what the site is about with some texts and image properly aligned. It also include a Get Started button for new users who wants to join Viva Fit.",
-
             "3. Why Choose Collection: This section highlights three of the top reasons why you should choose Viva Fit. The cards in this sections not only list the reasons but also includes a Learn More link to know more about any of the reasons.",
-
             "4. About Us Section: This section shows what summary of who Viva Fit is about. It include an image and a text to explain who they are and what they do.",
-            
             "5. Our Success Story Section: This section shows the many positive reviews and ratings from customers who have used Viva Fit. There is also a Read More Success Stories button.",
-            
             "6. Sign Up Section: This section includes some texts, image, and a sign up button.",
-            
             "7. Choose Membership Plan section: This section has three membership cards detailing the price and information of each plan. It also has a Get Started button for users who wants to join any of the Viva Fit Fitness programs.",
-            
             "8. Footer Section: The footer section is a combination of menu links, contact information, and social media icon. It also has a Subscribe to newsletter section where uses can enter their email and get latest updates from Viva Fit.",
-            
             "Technology Used to Build Viva Fit",
-            
             "The following technology was used to build this landing page:",
-            
             "1. HTML",
             "2. Tailwind CSS",
             "3. JavaScript",
-            
             "The codes for this project is available in my GitHub repo and if you want to see the live version, you can use any of the buttons below."
         ]
     },
@@ -108,8 +95,32 @@
         "image": "src/assets/image/showprime.png",
         "description": "Responsive HTML/CSS layout for the online movie website for Show Prime",
         "post": [
-            "Show Prime is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML",
-            "Show Prime is a landing page website for a furniture company. It was originally designed by Priscilla Daniels who is a UI/UX designer. I built it using Talwind CSS and HTML"
+            "Show Prime is a Film website designed by Priscila Daniel. It is a single page website that has sections such as the Hero, Get Started button, customer testimonial, user log in button, etc.",
+            "Viva Fit Sections",
+            
+            "1. This section is the header section and holds the logo, menu, get started button, and a log in link for Show Prime users.",
+
+            "2. Hero Section: This section highlights what the site is about with some texts and image properly aligned. It also include a search section for users to track if they bought a movie from the website.",
+
+            "3. Built and Customized Section: This section highlights three of the top features of Show Prime which include automated tracking and Smart Notifications.",
+
+            "4. Movie Gallery: This section shows random different movies that are available on the Website. Below this section is the easy to use section that shows brief intro of the interface and how the website looks like.",
+
+            "5. Testimonial Section: This section shows the many positive reviews and ratings from customers who have used Show Prime. There is also a Read More Success Testimonials button.",
+
+            "6. Tracking Section: This section includes some texts, image, tracking input box, and a button.",
+            
+            "7. Footer Section: The footer section is a combination of menu links, contact information, and social media icon.",
+            
+            "Technology Used to Build Show Prime",
+
+            "The following technology was used to build this landing page:",
+            
+            "1. HTML",
+            "2. Tailwind CSS",
+            "3. JavaScript",
+
+            "The codes for this project is available in my GitHub repo and if you want to see the live version, you can use any of the buttons below."
         ]
     },
     {
