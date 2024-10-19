@@ -7,9 +7,12 @@ import { useParams, Link } from 'react-router-dom';
 import postData from '../posts.json';
 import Header from "../components/Header";
 import SinglePosts from "../components/singleposts/SinglePosts";
+// import { useState } from 'react';
 
 function SinglePost() {
 
+    // const [nextPost, setNextPost] = useState(0);
+    // const [prevPost, setPrevPost] = useState(0);
     const { id } = useParams();
     const postId = parseInt(id, 10);
 
@@ -23,6 +26,26 @@ function SinglePost() {
         return <div>Post not found</div>;
     }
 
+    // function to get the next post from the json file
+    // function getNextPost() {
+    //     // nextPostId = post.id + 1;
+    //     const nextPostId = postData.find(post => post.id === postId).nextPostId;
+    //     setNextPost(nextPostId);
+
+    // }
+
+    // Function to try and navigate to the next post
+    const getNextPost = () => {
+        const nextPostId = post.id + 1; // Calculate the next post ID
+        const nextPost = postData.find(post => post.id === nextPostId); // Check if the next post exists
+
+        if (nextPost) {
+            history.push(`/single-post/${nextPostId}`); // Navigate to the next post
+            console.log(nextPost)
+        } else {
+            alert("This is the last post."); // Handle case where there is no next post
+        }
+    };
     // const paragraphs = posts.post;
 
     function viewLiveButton () {
@@ -44,6 +67,11 @@ function SinglePost() {
                     <div className="w-[90%] mx-auto my-10 flex gap-3 flex-col md:flex-row">
                         <Link onClick={viewLiveButton} className="flex-1 text-center py-5 rounded-sm bg-red-800 text-white text-xl font-semibold">Live View</Link>
                         <Link to={post.gitHubPath} className="flex-1 text-center py-5 rounded-sm bg-transparent border-2 border-red-800 text-red-800 text-xl font-semibold">View on GitHub</Link>
+                    </div>
+
+                    <div className="w-[90%] mx-auto flex justify-between">
+                        <Link className="text-xl font-semibold hover:underline">Prev</Link>
+                        <Link onClick={ getNextPost } className="text-xl font-semibold hover:underline">Next</Link>
                     </div>
                 </div>
                 <div className="lg:w-[30%] shadow-2xl">
