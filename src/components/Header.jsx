@@ -41,11 +41,11 @@ function Header() {
                     </div>
 
                     <button
-                        className="lg:hidden text-gray-600 hover:text-gray-900 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+                        className="lg:hidden text-gray-600 hover:text-gray-900 transition duration-300 ease-in-out w-48 flex justify-end"
                         id="menu-toggle-btn"
                         onClick={handleMenuToggle}
                     >
-                        <FontAwesomeIcon icon={faBars} />
+                        <FontAwesomeIcon icon={faBars} className='w-10 h-10' />
                     </button>
                 </header>
             </section>
