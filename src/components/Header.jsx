@@ -9,9 +9,9 @@ function Header() {
 
     const [menuOpen, setMenuOpen] = useState(false);
 
-    const handleMenuToggle = () => {
-        setMenuOpen(!menuOpen);
-    };
+    // const handleMenuToggle = () => {
+    //     setMenuOpen(!menuOpen);
+    // };
 
     return (
 
@@ -42,8 +42,7 @@ function Header() {
 
                     <button
                         className="lg:hidden text-gray-600 hover:text-gray-900 transition duration-300 ease-in-out w-48 flex justify-end"
-                        id="menu-toggle-btn"
-                        onClick={handleMenuToggle}
+                        id="menu-toggle-btn" onClick={() => setMenuOpen (currentVal => !currentVal)}
                     >
                         <FontAwesomeIcon icon={faBars} className='w-10 h-10' />
                     </button>

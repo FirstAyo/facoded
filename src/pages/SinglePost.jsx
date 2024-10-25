@@ -13,6 +13,7 @@ function SinglePost() {
 
     // const [nextPost, setNextPost] = useState(0);
     // const [prevPost, setPrevPost] = useState(0);
+    // const history = useHistory(); // Use history for navigation(this is throwing and error, try and fix)
     const { id } = useParams();
     const postId = parseInt(id, 10);
 
@@ -35,20 +36,20 @@ function SinglePost() {
     // }
 
     // Function to try and navigate to the next post
-    const getNextPost = () => {
-        const nextPostId = post.id + 1; // Calculate the next post ID
-        const nextPost = postData.find(post => post.id === nextPostId); // Check if the next post exists
+    // const getNextPost = () => {
+    //     const nextPostId = postId + 1; // Calculate the next post ID
+    //     const nextPost = postData.find(post => post.id === nextPostId); // Check if the next post exists
 
-        if (nextPost) {
-            history.push(`/single-post/${nextPostId}`); // Navigate to the next post
-            console.log(nextPost)
-        } else {
-            alert("This is the last post."); // Handle case where there is no next post
-        }
-    };
+    //     if (nextPost) {
+    //         history.push(`/single-post/${nextPostId}`); // Navigate to the next post
+    //         console.log(nextPost)
+    //     } else {
+    //         alert("This is the last post."); // Handle case where there is no next post
+    //     }
+    // };
     // const paragraphs = posts.post;
 
-    function viewLiveButton () {
+    function viewLiveButton() {
         alert("This webpage is not hosted yet. I am working on hosting it soon. Please come back and click this button in a few days time. Thank you")
     }
 
@@ -62,8 +63,8 @@ function SinglePost() {
 
             <div className="w-[95%] mx-auto flex flex-col gap-5 lg:flex-row my-10 font-mono">
                 <div className="lg:w-[70%] shadow-2xl">
-                    <SinglePosts post = {post} />
-                        
+                    <SinglePosts post={post} />
+
                     <div className="w-[90%] mx-auto my-10 flex gap-3 flex-col md:flex-row">
                         <Link onClick={viewLiveButton} className="flex-1 text-center py-5 rounded-sm bg-red-800 text-white text-xl font-semibold">Live View</Link>
                         <Link to={post.gitHubPath} className="flex-1 text-center py-5 rounded-sm bg-transparent border-2 border-red-800 text-red-800 text-xl font-semibold">View on GitHub</Link>
@@ -71,7 +72,7 @@ function SinglePost() {
 
                     <div className="w-[90%] mx-auto flex justify-between mb-5 py-2 lg:mb-0 lg:py-0">
                         <Link className="text-xl font-semibold hover:underline">Prev</Link>
-                        <Link onClick={ getNextPost } className="text-xl font-semibold hover:underline">Next</Link>
+                        <Link className="text-xl font-semibold hover:underline">Next</Link>
                     </div>
                 </div>
                 <div className="lg:w-[30%] shadow-2xl">
