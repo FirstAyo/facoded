@@ -24,8 +24,8 @@ function Header() {
                     {/* <h1 className="text-red-900 font-bold text-2xl">FaCoded</h1> */}
 
                     <nav
-                        className={` duration-500 absolute lg:w-auto mx-auto flex items-center px-5 lg:min-h-fit lg:static ${
-                            menuOpen ? 'top-[12%] md:top-[8%] bg-white/95 w-[100%] left-0' : 'top-[-100%] bg-white w-[100%]'
+                        className={`duration-500 absolute lg:w-auto mx-auto flex items-center px-5 lg:min-h-fit lg:static ${
+                            menuOpen ? 'top-[90px] bg-white/95 w-[100%] left-0' : 'top-[-100%] bg-white w-[100%]'
                           }`}>
                         <ul className="flex flex-col lg:flex-row my-5 lg:my-0 text-lg font-semibold">
                             {menuLinks.map((menuLink => (
